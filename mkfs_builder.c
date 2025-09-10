@@ -219,7 +219,7 @@ int main(int argc, char *argv[]) {
     root_inode.reserved_0 = 0;
     root_inode.reserved_1 = 0;
     root_inode.reserved_2 = 0;
-    root_inode.proj_id = 0; // Set your group ID here
+    root_inode.proj_id = 7; 
     root_inode.uid16_gid16 = 0;
     root_inode.xattr_ptr = 0;
     
